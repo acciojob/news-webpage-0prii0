@@ -8,92 +8,84 @@ body{
 	background-color: #f5f5f5;
 }
 
-.header{
-	width: 420px;
-	height: 50px;
-	background-color: #011e29;
-	padding: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.header {
+  width: 100%;
+  background-color: #011e29;
+  padding: 20px;
+  text-align: center;
 }
 
-.header > h2{
-	color: white;
-	padding: 5px;
-	margin-left: 30%;
+.header h2 {
+  color: white;
+  font-size: 24px;
 }
 
-.container{
-	display: flex;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	padding: 10px;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
 }
 
-.latest-news-section{
-	height: 90px;
-	width: 120px;
-	background-color: #ffffff;
-	border-radius: 5px;
+.latest-news-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
 }
 
-.latest-news-section> h3{
-	font-size: 12px;
-	text-align: center;
-	padding-top: 15px;
+.latest-news-section h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
-.latest-news-section>ul{
-	align-items: center;
-	margin-left: 25px;
-	padding-left: 5px
+.latest-news-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
-.latest-news-section>ul>li{
-	font-size: 10px;
-	text-align: center;
-	padding: 2px
+.latest-news-section li {
+  font-size: 12px;
+  margin: 5px 0;
 }
 
-.main-section{
-	height: 110px;
-	width: 150px;
-	background-color: #ffffff;
-	border-radius: 5px;	
-}
-.main-section>h3{
-	font-size: 12px;
-	text-align: center;
-	padding-top: 15px;
+
+.main-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
 }
 
-.main-section>p{
-	font-size: 9px;
-	text-align: center;
-	padding: 2px
+.main-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.pictorial-news-section{
-	height: 220px;
-	width: 100px;
-	background-color: #ffffff;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-	
+.main-section p {
+  font-size: 12px;
+  line-height: 1.4;
 }
 
-.pictorial-news-section>h3{
-	font-size: 12px;
-	text-align: center;
-	padding: 5px;
+
+.pictorial-news-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
 }
 
-.pictorial-news-section>img {
-	height: 60px;
-	width: 100px;
-	padding: 2px;
+.pictorial-news-section h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pictorial-news-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
