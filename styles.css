@@ -18,7 +18,9 @@ body{
 
 .header > h2{
 	color: white;
-	text-align: center;
+	text-align: start;
+	padding: 5px;
+	margin-left: 30%;
 }
 
 .container{
